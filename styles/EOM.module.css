@@ -9,3 +9,7 @@
 .employeeOfTheMonth {
     text-align: center;
 }
+
+.employeeOfTheMonth img {
+    width: 250px;
+}

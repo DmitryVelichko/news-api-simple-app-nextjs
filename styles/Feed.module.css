@@ -1,4 +1,9 @@
 .paginator {
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+
+.paginator div {
+    margin: 25px;
 }

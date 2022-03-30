@@ -1,4 +1,4 @@
-export const EOM = () => {
+export const EOM = ({ employee }) => {
     return (
         <div className="page-container">
             <div>
@@ -9,7 +9,9 @@ export const EOM = () => {
 };
 
 export const getServerSideProps = async pageContext => {
-    
+    const apiResponse = await fetch(
+        'https://my-json-server.typicode.com/portexe/next-news/employeeOfTheMonth',
+    )
 }
 
 export default EOM;

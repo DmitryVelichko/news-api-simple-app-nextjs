@@ -14,6 +14,12 @@ export const getServerSideProps = async pageContext => {
     )
 
     const employee = await apiResponse.json();
+
+    return {
+        props: {
+            employee
+        }
+    }
 }
 
 export default EOM;

@@ -7,6 +7,8 @@ export const EOM = ({ employee }) => {
                 <div>
                     <h3>{employee.name}</h3>
                     <h6>{employee.position}</h6>
+                    <img src={employee.image} alt="man's face" />
+                  
                 </div>
             </div>
         </div>

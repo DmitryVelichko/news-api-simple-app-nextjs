@@ -6,6 +6,7 @@ export const EOM = ({ employee }) => {
 
                 <div>
                     <h3>{employee.name}</h3>
+                    <h6>{employee.position}</h6>
                 </div>
             </div>
         </div>

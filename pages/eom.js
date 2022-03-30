@@ -8,4 +8,8 @@ export const EOM = () => {
     );
 };
 
+export const getServerSideProps = async pageContext => {
+    
+}
+
 export default EOM;

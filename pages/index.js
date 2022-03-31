@@ -6,7 +6,9 @@ export default function Home() {
 
     return (
         <div className='page-container'>
-
+            <div className={styles.main}>
+                <h1>Next.js News App</h1>
+            </div>
         </div>
     )
   

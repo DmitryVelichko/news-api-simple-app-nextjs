@@ -1,4 +1,5 @@
 import link from '../public/link.jpg'
+import styles from '../styles/EOM.module.css'
 
 export const EOM = ({ employee }) => {
     return (

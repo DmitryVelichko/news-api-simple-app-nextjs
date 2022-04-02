@@ -4,3 +4,7 @@
     display: flex;
     justify-content: center;
 }
+
+.main div {
+    margin: 25px;
+}

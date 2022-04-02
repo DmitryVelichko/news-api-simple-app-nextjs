@@ -7,4 +7,9 @@
 
 .main div {
     margin: 25px;
+    cursor: pointer;
+}
+
+.main div:hover {
+    color: rgb(168, 168, 168);
 }

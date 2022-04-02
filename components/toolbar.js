@@ -9,7 +9,7 @@ export const Toolbar = () => {
             <div>Home</div>
             <div>Feed</div>
             <div>EOM</div>
-           
+            <div>Twitter</div>
         </div>
     )
 }

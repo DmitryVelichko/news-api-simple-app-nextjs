@@ -6,7 +6,7 @@ export const Toolbar = () => {
 
     return(
         <div className={styles.main}>
-            <div>Home</div>
+            <div onClick={() => router.push('/')}>Home</div>
             <div>Feed</div>
             <div>EOM</div>
             <div>Twitter</div>

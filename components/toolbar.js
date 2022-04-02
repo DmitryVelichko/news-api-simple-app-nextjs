@@ -8,7 +8,8 @@ export const Toolbar = () => {
         <div className={styles.main}>
             <div>Home</div>
             <div>Feed</div>
-            
+            <div>EOM</div>
+           
         </div>
     )
 }

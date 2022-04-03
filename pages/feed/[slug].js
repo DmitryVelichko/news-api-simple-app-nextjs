@@ -3,7 +3,7 @@ export const Feed = ({ pageNumber, articles }) => {
 }
 
 export const getServerSideProps = async pageContext => {
-    
+    const pageNumber = pageContext.query.slug;
 }
 
 export default Feed;

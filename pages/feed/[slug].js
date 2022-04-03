@@ -13,6 +13,10 @@ export const getServerSideProps = async pageContext => {
             }
         }
     }
+
+    const apiResponse = await fetch (
+        `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&page=${pageNumber}`
+    )
 }
 
 export default Feed;

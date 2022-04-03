@@ -24,6 +24,8 @@ export const getServerSideProps = async pageContext => {
     );
 
     const apiJson = await apiResponse.json();
+
+    const { articles } = apiJson;
 };
 
 export default Feed;

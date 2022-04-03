@@ -8,7 +8,8 @@ export const getServerSideProps = async pageContext => {
     if (!pageNumber || pageNumber < 1 || pageNumber > 5) {
         return {
             props: {
-                
+                articles: [],
+                pageNumber: 1,
             }
         }
     }
